@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Proyecto Final</string>
+    <string name="Logo">Apps Moviles</string>
+    <string name="titulo">INGRESAR</string>
+    <string name="TITULO">INGRESAR</string>
+    <string name="Logo_Bienvenida">registro</string>
+    <string name="userimage">Imagen de usuario</string>
+    <string name="detallenombre">Nombre</string>
+    <string name="detallematricula">Matricula</string>
+    <string name="detallepromedio">Promedio</string>
+    <string name="Entrar">Ingresar</string>
+    <string name="matricula" />
+    <string name="nombre" />
+    <string name="correo" />
+    <string name="promedio" />
+    <string name="todo">TODO</string>
+    <string name="ingresa_matricula">INGRESA MATRICULA</string>
+    <string name="ejemplo_gmail_com">ejemplo@.gmail.com</string>
+    <string name="ingresa_nombre">INGRESA NOMBRE</string>
+    <string name="promedio_con_2_decimales">promedio con 2 decimales</string>
+    <string name="grabar">Button</string>
+    <string name="detcorreo">Correo</string>
+    <string name="dlblcorreo" />
+    <string name="ingresamatricula">ingresa matricula</string>
+    <string name="ingresatunombre">ingresa tu nombre</string>
+    <string name="ejemplogooglecom">ejemplo@google.com</string>
+    <string name="xd">100.00</string>
+    <string name="todoo">TODO</string>
+</resources>

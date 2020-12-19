@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bienvenida">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="132dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/todoo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/matricula" />
+
+    <EditText
+        android:id="@+id/matricula"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingresamatricula"
+        android:inputType="textPersonName"
+        android:text="@string/matricula"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ingresatunombre"
+        android:inputType="textPersonName"
+        android:text="@string/nombre"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/ejemplogooglecom"
+        android:inputType="textPersonName"
+        android:text="@string/correo"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/promedio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/promedio"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="380dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/xd"
+        android:inputType="textPersonName"
+        android:text="@string/promedio"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_inline"
+        android:text="@string/TITULO"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/promedio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="95dp"
+        android:onClick="Graba"
+        android:text="@string/Entrar"
+        app:layout_constraintBottom_toBottomOf="@+id/matricula"
+        app:layout_constraintEnd_toStartOf="@+id/imagen"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <GridView
+        android:id="@+id/gvDatos"
+        android:layout_width="360dp"
+        android:layout_height="295dp"
+        android:numColumns="4"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
